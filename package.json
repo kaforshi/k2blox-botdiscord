@@ -1,0 +1,21 @@
+{
+  "name": "k2blox-botdiscord",
+  "version": "1.0.0",
+  "description": "Discord bot untuk mengirim embed ke channel yang dipilih",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "setup": "node setup.js"
+  },
+  "keywords": ["discord", "bot", "embed"],
+  "author": "K2Blox",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
