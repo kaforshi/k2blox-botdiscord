@@ -1,0 +1,22 @@
+{
+  "name": "k2blox-botdiscord",
+  "version": "1.0.0",
+  "description": "Bot Discord dengan fitur testimoni, sticky message, dan custom embed builder",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js",
+    "test": "node test-commands.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["discord", "bot", "nodejs", "discord.js"],
+  "author": "K2BLOX",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  }
+}
