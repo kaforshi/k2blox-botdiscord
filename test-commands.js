@@ -26,8 +26,3 @@ if (!config.token || !config.clientId) {
     console.log('\n🎉 Semua konfigurasi sudah benar! Bot siap dijalankan.');
     console.log('🚀 Jalankan: npm start');
 }
-
-console.log('\n📚 Dokumentasi:');
-console.log('- README.md: Dokumentasi lengkap');
-console.log('- SETUP.md: Panduan setup step-by-step');
-console.log('- env.example: Template environment variables');
